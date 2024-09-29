@@ -1,0 +1,36 @@
+.contact {
+  margin: 20px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact input, .contact textarea {
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.contact button {
+  width: 100%; /* Set button width to 100% for uniformity */
+  padding: 10px; /* Ensure consistent height with padding */
+  margin: 10px 0; /* Maintain vertical spacing */
+  cursor: pointer; /* Change cursor to pointer for better UX */
+  position: relative; 
+  z-index: 2; 
+}
+
+.button-container {
+  display: flex; /* Align buttons in a row */
+  justify-content: space-between; /* Distribute space between buttons */
+}
+
+.button-container button {
+  flex: 1; /* Allow buttons to take equal space */
+  margin-right: 10px; /* Add space between buttons */
+}
+
+.button-container button:last-child {
+  margin-right: 0; /* Remove margin from the last button */
+}

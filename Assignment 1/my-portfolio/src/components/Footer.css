@@ -1,0 +1,19 @@
+.Footer {
+    background-color: #f8f9fa; 
+    position: fixed; 
+    width: 100%; 
+    bottom: 0;
+    left: 0;
+    z-index: 1; 
+  }
+  
+  .footer-text {
+    color: #6c757d;
+    text-align: center; 
+    margin-bottom: -20px;
+  }
+  
+  .Footer hr{
+    margin-bottom: -20px;
+  }
+ 
