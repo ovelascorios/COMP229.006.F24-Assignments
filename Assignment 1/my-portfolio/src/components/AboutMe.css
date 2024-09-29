@@ -1,60 +1,77 @@
+/*
+  File Name: AboutMe.css
+  Description: This CSS file styles the "About Me" section for a personal portfolio website. It includes
+               layout adjustments for various elements such as the header, profile image, description 
+               text, resume download button, and personal information. 
+  Student's Name: Orlando Velasco Rios
+  Student ID: 301368612
+  Date: September 29, 2024
+*/
+
+/* General styling for the .about section */
 .about {
-    margin: 20px;
-  }
+  margin: 20px;
+}
 
-  .about h1{
-    text-align: center;
-    position: relative;
-    margin-bottom: 0%;
-  }
-  
-  .about p{
-    text-align: justify;
-    position: relative;
-    margin-left: 10%;
-    margin-right: 30%;
-    margin-top: -320px;
-    font-size: 1.2rem; 
-  }
+/* Styling for the main heading (h1) within the .about section */
+.about h1 {
+  text-align: center;
+  position: relative;
+  margin-bottom: 0%;
+}
 
-  .resume{
-    position: relative;
-    margin-left: 25%;
-    margin-top: 20px;
-  }
-  
-  .about img {
-    border-radius: 50%;
-    width: 250px;
-    height: 350px;
-    position: relative;
-    margin-left: 72%;
-  }
-  
-  .logo-img {
-    width: 150px; /* Logo width */
-    height: 70px; /* Logo height */
-  }
+/* Styling for paragraphs (p) within the .about section */
+.about p {
+  text-align: justify;
+  position: relative;
+  margin-left: 10%;
+  margin-right: 30%;
+  margin-top: -320px;
+  font-size: 1.2rem; 
+}
 
-  .portafolio{
+/* Styling for the resume container */
+.resume {
+  position: relative;
+  margin-left: 25%;
+  margin-top: 20px;
+}
 
-    position: relative;
-    margin-left: 45%;
-    margin-top: -20px;
+/* Styling for images within the .about section */
+.about img {
+  border-radius: 50%;
+  width: 250px;
+  height: 350px;
+  position: relative;
+  margin-left: 72%;
+}
 
-  }
+/* Styling for logo images */
+.logo-img {
+  width: 150px; 
+  height: 70px; 
+}
 
-  .about h4{
-    position: relative;
-    text-align: right;
-    margin-right: 12%;
-    margin-top: 50px;
-  }
+/* Styling for the portfolio container */
+.portafolio {
+  position: relative;
+  margin-left: 45%;
+  margin-top: -22px;
+}
 
-  .about h5{
-    position: relative;
-    text-align: right;
-    margin-right: 10%;
-    margin-top: -15px;
-  }
+/* Styling for the secondary heading (h4) within the .about section */
+.about h4 {
+  position: relative;
+  text-align: right;
+  margin-right: 12%;
+  margin-top: 50px;
+}
+
+/* Styling for the tertiary heading (h5) within the .about section */
+.about h5 {
+  position: relative;
+  text-align: right;
+  margin-right: 10%;
+  margin-top: -15px;
+}
 

@@ -1,13 +1,26 @@
+/* 
+  File Name: ServicesPage.css 
+  Description: The CSS file styles the ServicesPage component of a React portfolio website. 
+               It defines the layout and appearance of service cards, including margins, 
+               borders, shadows, and modal elements for enhanced interactivity.
+  Student's Name: Orlando Velasco Rios
+  Student ID: 301368612
+  Date: September 29, 2024 
+*/
+
+/* Styling for the services section */
 .services {
   margin: 20px;
 }
 
+/* Styling for the container of service cards */
 .service-cards {
   display: flex; 
   justify-content: space-between; 
   flex-wrap: wrap; 
 }
 
+/* Styling for each individual service card */
 .service {
   border: 1px solid #ccc;
   margin: 15px;
@@ -20,6 +33,7 @@
   text-align: center; 
 }
 
+/* Styling for images within service cards */
 .service img {
   width: 100%;
   height: 200px; 
@@ -27,6 +41,7 @@
   margin-bottom: 10px; 
 }
 
+/* Styling for the modal overlay */
 .modal {
   position: fixed; 
   top: 0;
@@ -40,6 +55,7 @@
   z-index: 10; 
 }
 
+/* Styling for the content inside the modal */
 .modal-content {
   background-color: #fff; 
   padding: 20px;
@@ -49,11 +65,13 @@
   text-align: center; 
 }
 
+/* Styling for images within the modal content */
 .modal-content img {
   width: 100%; 
   height: auto; 
 }
 
+/* Styling for buttons within the modal content */
 .modal-content button {
   margin-top: 10px; 
 }

@@ -1,22 +1,39 @@
-.projects {
-    margin: 20px;
-  }
-  
-  .project {
-    border: 1px solid #ccc;
-    margin: 15px;
-    padding: 10px;
-  }
-  
-  .project img {
-    width: 100%;
-    height: 15%;
-  }
+/*
+  File Name: ProjectsPage.css
+  Description: The ProjectsPage.css file contains the styling rules for the ProjectsPage 
+               component of a React portfolio website. This stylesheet is designed to 
+               enhance the visual presentation of project listings. It provides layout 
+               structure, spacing, and styling for individual project cards, ensuring a 
+               cohesive and user-friendly experience. 
+  Student's Name: Orlando Velasco Rios
+  Student ID: 301368612
+  Date: September 29, 2024
+*/
 
-  .project button{
-      position: relative; 
-      z-index: 2; 
-  }
-  
+
+/* Styling for the projects section */
+.projects {
+  margin: 20px;
+}
+
+/* Styling for each individual project card */
+.project {
+  border: 1px solid #ccc;
+  margin: 15px;
+  padding: 10px;
+}
+
+/* Styling for images within project cards */
+.project img {
+  width: 100%;
+  height: 15%;
+}
+
+/* Styling for buttons within project cards */
+.project button {
+  position: relative; 
+  z-index: 2; 
+}
+
   
   

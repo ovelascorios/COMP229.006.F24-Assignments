@@ -1,19 +1,32 @@
+/*
+  File Name: Footer.css
+  Description: This CSS file styles the footer component for a personal portfolio website. It ensures
+               the footer is fixed at the bottom of the page, spans the full width, and maintains
+               a consistent look with background color and centered text. It also styles the 
+               copyright text and horizontal rule for proper alignment and spacing.
+  Student's Name: Orlando Velasco Rios
+  Student ID: 301368612
+  Date: September 29, 2024
+*/
+
+/* Styling for the footer component */
 .Footer {
-    background-color: #f8f9fa; 
-    position: fixed; 
-    width: 100%; 
-    bottom: 0;
-    left: 0;
-    z-index: 1; 
-  }
-  
-  .footer-text {
-    color: #6c757d;
-    text-align: center; 
-    margin-bottom: -20px;
-  }
-  
-  .Footer hr{
-    margin-bottom: -20px;
-  }
- 
+  background-color: #f8f9fa; 
+  position: fixed; 
+  width: 100%; 
+  bottom: 0;
+  left: 0;
+  z-index: 1; 
+}
+
+/* Styling for the text within the footer */
+.footer-text {
+  color: #6c757d;
+  text-align: center; 
+  margin-bottom: -20px;
+}
+
+/* Styling for the horizontal rule (hr) within the footer */
+.Footer hr {
+  margin-bottom: -20px;
+}

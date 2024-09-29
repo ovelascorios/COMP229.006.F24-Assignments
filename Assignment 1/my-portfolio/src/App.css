@@ -1,19 +1,31 @@
+/* 
+  File Name: App.css 
+  Description: This CSS file contains styles for the main App component of the React application. 
+  Student's Name: Orlando Velasco Rios
+  Student ID: 301368612
+  Date: September 29, 2024 
+*/
+
+/* Styling for the main App component */
 .App {
   text-align: center;
   padding-bottom: 60px;
 }
 
+/* Styling for the App logo */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
+/* Animation for the App logo if user prefers reduced motion */
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
+/* Styling for the App header section */
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -25,10 +37,12 @@
   color: white;
 }
 
+/* Styling for links within the App */
 .App-link {
   color: #61dafb;
 }
 
+/* Keyframes for the App logo spinning animation */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

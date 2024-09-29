@@ -1,36 +1,53 @@
+/*
+  File Name: ContactMe.css
+  Description: This CSS file styles the "Contact Me" section for a personal portfolio website. 
+               It provides the layout and spacing for the contact form elements, including input 
+               fields, textarea, and buttons. 
+  Student's Name: Orlando Velasco Rios
+  Student ID: 301368612
+  Date: September 29, 2024
+*/
+
+/* General styling for the .contact section */
 .contact {
   margin: 20px;
 }
 
+/* Styling for the form within the .contact section */
 .contact form {
   display: flex;
   flex-direction: column;
 }
 
+/* Styling for input fields and textarea within the .contact section */
 .contact input, .contact textarea {
   margin: 10px 0;
   padding: 10px;
 }
 
+/* Styling for buttons within the .contact section */
 .contact button {
-  width: 100%; /* Set button width to 100% for uniformity */
-  padding: 10px; /* Ensure consistent height with padding */
-  margin: 10px 0; /* Maintain vertical spacing */
-  cursor: pointer; /* Change cursor to pointer for better UX */
+  width: 100%; 
+  padding: 10px; 
+  margin: 10px 0; 
+  cursor: pointer; 
   position: relative; 
   z-index: 2; 
 }
 
+/* Styling for the button container */
 .button-container {
-  display: flex; /* Align buttons in a row */
-  justify-content: space-between; /* Distribute space between buttons */
+  display: flex; 
+  justify-content: space-between; 
 }
 
+/* Styling for individual buttons within the button container */
 .button-container button {
-  flex: 1; /* Allow buttons to take equal space */
-  margin-right: 10px; /* Add space between buttons */
+  flex: 1; 
+  margin-right: 10px; 
 }
 
+/* Removing margin for the last button in the button container */
 .button-container button:last-child {
-  margin-right: 0; /* Remove margin from the last button */
+  margin-right: 0; 
 }

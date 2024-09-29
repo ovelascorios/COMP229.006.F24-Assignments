@@ -1,19 +1,31 @@
-.home {
-    text-align: center;
-    margin-top: 50px;
-  }
-  
-  .home h1 {
-    font-size: 2.5em;
-  }
-  
-  .home p { 
-    font-size: 1.2rem; 
-    max-width: 600px; 
-    margin-bottom: 30px; 
-    color: #555; 
-    line-height: 1.5; 
-    margin-left: 25%;
-    font-style: italic;
+/*
+  File Name: HomePage.css
+  Description: This CSS file styles the HomePage component for a personal portfolio website. 
+               It centers the content, adjusts the font sizes and text alignment, and ensures
+               that the page has a clean, professional look with proper margins and color schemes.
+  Student's Name: Orlando Velasco Rios
+  Student ID: 301368612
+  Date: September 29, 2024
+*/
 
+/* Styling for the home section */
+.home {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Styling for the main heading in the home section */
+.home h1 {
+  font-size: 2.5em;
+}
+
+/* Styling for the paragraph in the home section */
+.home p { 
+  font-size: 1.2rem; 
+  max-width: 600px; 
+  margin-bottom: 30px; 
+  color: #555; 
+  line-height: 1.5; 
+  margin-left: 25%;
+  font-style: italic;
 }

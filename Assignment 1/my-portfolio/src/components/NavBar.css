@@ -1,23 +1,38 @@
+/*
+  File Name: NavBar.css
+  Description: The NavBar.css file contains styles for the navigation bar component of a 
+               personal portfolio website. It defines the layout and appearance of the 
+               navigation bar, including the logo, navigation links, and overall styling 
+               to ensure a visually appealing and responsive design. 
+  Student's Name: Orlando Velasco Rios
+  Student ID: 301368612
+  Date: September 29, 2024
+*/
+
+/* Styling for the navigation bar */
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    background-color: #333;
-    padding: 10px 20px;
-    color: white;
-  }
-  
-  .navbar ul {
-    list-style: none;
-    display: flex;
-    gap: 15px;
-  }
-  
-  .navbar a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  .logo-img {
-    width: 150px; 
-    height: 70px; 
-  }
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  padding: 10px 20px;
+  color: white;
+}
+
+/* Styling for the unordered list in the navbar */
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+/* Styling for the links in the navbar */
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Styling for the logo image in the navbar */
+.logo-img {
+  width: 150px; 
+  height: 70px; 
+}
